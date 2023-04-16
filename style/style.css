@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("fonts/Ubuntu-Medium.ttf");
+}
+body {
+    background-color: #282a35fb;
+    font-family: "Ubuntu-Medium";
+    /* text-align: center; */
+}
+
+h1 {
+    top: 15px;
+    user-select: none;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+p {
+    user-select: none;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+.image {
+    user-select: none;
+    width: 120px;
+    margin-left: 20px;
+    position: relative;
+    
+}
+
+/* #btc{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #2f313f;
+}
+
+#btc p{
+    text-align: right;
+    background-color: #2f313f;
+}
+
+
+.user{
+    display: inline-block;
+    padding: 0 20px 20px 0;
+    width: 100px;
+}  */
+
+
+#main {
+    text-align: center;
+    margin: 1%;
+    background-color: #13141a;
+    /* background-color: #282A35; */
+    border-radius: 25px;
+}
+
+#content {
+    text-align: center;
+    margin: 2%;
+    padding: 10%;
+    background-color: #13141a;
+    /* background-color: #282A35; */
+    border-radius: 25px;
+}
+
+
+.buy{
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 30px;
+    width: 80px;
+    border: 1px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+.buy:hover{
+    background-color: rgb(40, 42, 53);
+    border: 1px solid white;
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buy:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
