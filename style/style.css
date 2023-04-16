@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("fonts/Ubuntu-Medium.ttf");
+}
+body {
+    background-color: #282A35;
+    font-family: "Ubuntu-Medium";
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+p {
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+
+.buy{
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 30px;
+    width: 80px;
+    border: 1px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+.buy:hover{
+    background-color: rgb(40, 42, 53);
+    border: 1px solid white;
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
