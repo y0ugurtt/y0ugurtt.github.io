@@ -1,0 +1,266 @@
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("fonts/Ubuntu-Medium.ttf");
+}
+body {
+    background-color: #282a35fb;
+    font-family: "Ubuntu-Medium";
+}
+
+h1 {
+    user-select: none;
+    color: white;
+    position: relative;
+}
+p {
+    user-select: none;
+    color: white;
+    position: relative;
+}
+.image {
+    user-select: none;
+    width: 120px;
+    position: relative;
+    
+}
+
+
+
+#main {
+    text-align: center;
+    margin: 1%;
+    background-color: #20222b;
+    border-radius: 25px;
+}
+#main h1{
+    user-select: none;
+    top: 15px;
+}
+
+#content {
+    margin: 2%;
+    padding: 1%;
+    background-color: #20222b;
+    border-radius: 25px;
+}
+#content h1{
+    user-select: none;
+    text-align: center;
+}
+
+
+#money {
+    display:inline-block;
+    text-align: right;
+}
+
+#balance {
+    display:inline-block;
+    text-align: left;
+    margin: 3%;
+}
+
+#buttons {
+    display: block;
+    text-align: center;
+}
+
+#history {
+    text-align: center;
+    padding: 1%;
+    background-color: #20222b;
+    border-radius: 25px;
+}
+
+#link {
+    font-family: "Ubuntu-Medium";
+    text-align: center;
+}
+
+#link a{
+    user-select: none;
+    color: white;
+}
+
+#address {
+    padding: 1%;
+    background-color: #20222b;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#backverd {
+    text-align: center;
+}
+
+#send_crypt_money {
+    padding: 4%;
+    background-color: #20222b;
+    border-radius: 25px;
+    text-align: center;
+    margin: 2%;
+}
+form {
+    margin: 3%;
+    text-align:center;
+}
+.amount {
+    font-family: "Ubuntu-Medium";
+    height: 30px;
+    background-color: #2d303d;
+    color: #ffffff;
+    border: None;
+    border-radius: 18px;
+    outline:none;
+    text-align:center;
+    font-size: 20px;
+
+}
+.address {
+    font-family: "Ubuntu-Medium";
+    height: 30px;
+    background-color: #2d303d;
+    color: #ffffff;
+    border: None;
+    border-radius: 18px;
+    outline:none;
+    text-align: center;
+    font-size: 20px;
+    margin: 2%;
+
+}
+#send_crypt_money h2{
+    user-select: none;
+    font-family: "Ubuntu-Medium";
+    color: #ffffff;
+}
+
+ 
+.backer{
+    margin: 5%;
+    font-family: "Ubuntu-Medium";
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 60px;
+    width: 130px;
+    border: 0px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+}
+
+.backer:hover{
+    background-color: rgb(40, 42, 53);
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.backer:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
+
+.copy{
+    margin: 2%;
+    font-family: "Ubuntu-Medium";
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 30px;
+    width: 80px;
+    border: 0px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+}
+
+.copy:hover{
+    background-color: rgb(40, 42, 53);
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.copy:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
+
+
+.button_submit {
+    font-family: "Ubuntu-Medium";
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 40px;
+    width: 100px;
+    border: 0px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    margin: 3%;
+}
+.button_submit:hover{
+    background-color: rgb(40, 42, 53);
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button_submit:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
+
+.buy{
+    font-family: "Ubuntu-Medium";
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 60px;
+    width: 130px;
+    border: 0px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    /* margin-left: 95px; */
+}
+.buy:hover{
+    background-color: rgb(40, 42, 53);
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buy:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
+
+
+.sell{
+    font-family: "Ubuntu-Medium";
+    margin: 3%;
+    user-select: none;
+    background-color: rgba(26, 27, 34, 0.706);
+    height: 60px;
+    width: 130px;
+    border: 0px solid rgb(32, 31, 31);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    /* margin-right: 100px; */
+}
+.sell:hover{
+    background-color: rgb(40, 42, 53);
+    color: #dddddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.sell:active {
+    background-color: rgb(65, 69, 88);
+    transform: translateY(1px);
+}
